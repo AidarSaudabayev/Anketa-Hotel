@@ -341,7 +341,7 @@ input {
 /*--------------about--------*/
 /*--------------wrapper--------*/
 .wrapper {
-  background-image: url("../image/ami.jpg");
+  background-image: url("../image2/wood10.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -420,9 +420,7 @@ input {
 
 /*--------------room--------*/
 /*--------------wrapper2--------*/
-.wrapper2 {
-  background-image: url("../image/w1.jpg");
-}
+
 
 .wrapper2 .text {
   left: 10%;
@@ -558,6 +556,18 @@ input {
 
 /*--------------map--------*/
 /*--------------footer--------*/
+.footer{
+  max-width: 100%;
+
+}
+.box{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 10px;
+margin-bottom: 50px;
+  gap: 20px;
+ justify-content: space-around;
+}
 footer h3 {
   margin-bottom: 20px;
 }
